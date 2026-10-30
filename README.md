@@ -6,6 +6,10 @@
   The Australian National University
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/pdf/2610.39913"><img src="https://img.shields.io/badge/arXiv-2610.39913-b31b1b.svg" alt="arXiv"></a>
+</p>
+
 <p align="center"><img src="assets/teaser.png" width="100%"></p>
 
 <p align="center"><img src="assets/method.png" width="100%"></p>
@@ -56,3 +60,14 @@ python generate.py --model sdxl   --prompts assets/example_prompts.json
 | `--inference_steps` | denoising steps |
 | `--guidance_scale` | Classifier-free guidance if appliable |
 | `--baseline` | plain sampling without TokenRepel |
+
+## Citation
+
+```bibtex
+@inproceedings{yu2026tokenrepel,
+  title     = {TokenRepel: Generating Diverse Image Sets Without Compromising Quality},
+  author    = {Yu, Qingtao and Wang, Zhen and Lai, Ning and Hu, Boyang and Li, Hongdong and Campbell, Dylan},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
+}
+```
